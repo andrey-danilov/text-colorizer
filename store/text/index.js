@@ -62,6 +62,9 @@ export const actions = {
       jsonStructure.colors.push(item.color);
     });
 
+    jsonStructure.text = jsonStructure.text.join(' ');
+
+
     downloadFile(JSON.stringify(jsonStructure));
   },
 
