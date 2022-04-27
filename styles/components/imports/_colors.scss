@@ -1,0 +1,31 @@
+$white: #FFFFFF;
+$black: #000000;
+
+$gray1: #333333;
+$gray2: #4F4F4F;
+$gray3: #c2c2c2;
+$gray4: #bdbdbd; /*#BDBDBD rgba(189, 189, 189, 0.3)*/
+$gray5: #f8f8f8;
+$gray6: #f2f2f2;
+$gray7: #EBEFF2;
+$gray8: #D5D5D5;
+$gray9: #EBEBEB;
+$gray10: #828282;
+$gray11: #E0E0E0;
+$gray12: #999999;
+$gray13: #E5E5E5;
+
+$greenish: #AD9C61;
+$secondary: rgba(173, 169, 97, 0.75); // по временное название
+
+$gradient: linear-gradient(274.3deg, $greenish 0%, $secondary 100%);
+$gradient-light: linear-gradient(274.3deg, rgba($greenish, 0.15) 0%, rgba($secondary, 0.15) 100%);
+$red: #eb5757;
+$green: #27AE60;
+$warning: #F2994A;
+
+$blue: #1734a4;
+
+$yellow: #988416;
+
+$violet: #3c0377;

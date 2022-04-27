@@ -1,0 +1,5 @@
+export const SET_TEXT = 'setText'
+export const SET_COLOR = 'setColor'
+export const DELETE_WORDS = 'deleteWords'
+export const DOWNLOAD_JSON = 'downloadJson'
+export const SET_RESET_STATE = 'setResetState'

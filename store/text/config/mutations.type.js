@@ -1,0 +1,4 @@
+export const ADD_WORDS_LIST = 'ADD_WORDS_LIST'
+export const SET_PROCESSING_FLAG = 'SET_PROCESSING_FLAG'
+
+export const RESET_STATE = 'RESET_STATE'
