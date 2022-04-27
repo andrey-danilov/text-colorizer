@@ -28,25 +28,26 @@
       <t-button
         small
         icon
+        :disabled='!wordMap.length'
         @click='downloadJson'
       >
         <svg-icon name='export' />
       </t-button>
     </div>
-    <div class='word-selector__list'>
-      <template v-if='wordMap.length'>
-      <word-item
-        v-for='(item, index) in wordMap'
-        :key='item.id'
-        class='word-selector__item'
-        :item='item'
-        :index='index'
-        :start-select='startSelect'
-        :end-select='endSelect'
-        @toggleWord='onToggleWord'
-      />
-    </template>
-    </div>
+    <transition name='fade'>
+      <div v-if='wordMap.length' class='word-selector__list'>
+        <word-item
+          v-for='(item, index) in wordMap'
+          :key='item.id'
+          class='word-selector__item'
+          :item='item'
+          :index='index'
+          :start-select='startSelect'
+          :end-select='endSelect'
+          @toggleWord='onToggleWord'
+        />
+      </div>
+    </transition>
   </div>
 </template>
 
